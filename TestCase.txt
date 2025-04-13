@@ -1,10 +1,14 @@
 ==== Manually Written Test Cases ====
 
-[Add your manually written test cases here]
+1. Some artists may have no concerts on the list. In that case, that should be indicated in the itinerary.
+2. The itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).
+3. An artist has at most one concert in the itinerary. If an artist has more than one concert in the list, the itinerary should only include the one with the earliest start date.
 
 
 
 ==== AI-Assisted Test Cases ====
 
-[Add your AI-generated test cases here]
+1. No two concerts may take place on the same day. If two different artists (or the same artist) have a concert on the same day, the itinerary only includes the concert closest to the last one.
+2. The itinerary should return a list of concerts that state the artist, date, and location of each concert.
+3. If an artist only has one concert, it should be prioritized over artists with multiple concerts, regardless if the location is closer or not.
 

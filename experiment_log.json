@@ -1,0 +1,1218 @@
+{
+  "experiment_start": "2025-04-12T17:41:03",
+  "test_runs": [
+    {
+      "timestamp": "2025-04-12T19:54:03.770697",
+      "results": {
+        "total": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-12T19:57:38.174243",
+      "results": {
+        "total": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-12T19:59:54.453471",
+      "results": {
+        "total": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-12T20:01:39.190006",
+      "results": {
+        "total": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-12T20:01:49.346357",
+      "results": {
+        "total": 3,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... ERROR\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ERROR\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 55, in test_manual_2\n    first = datetime.strptime('12-04-2025', '%Y-%m-%d')\n  File \"C:\\Users\\Lioba\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_strptime.py\", line 568, in _strptime_datetime\n    tt, fraction, gmtoff_fraction = _strptime(data_string, format)\n  File \"C:\\Users\\Lioba\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_strptime.py\", line 349, in _strptime\n    raise ValueError(\"time data %r does not match format %r\" %\nValueError: time data '12-04-2025' does not match format '%Y-%m-%d'\n\n======================================================================\nERROR: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 89, in test_manual_3\n    earliest = datetime.strptime('12-04-2025', '%Y-%m-%d')\n  File \"C:\\Users\\Lioba\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_strptime.py\", line 568, in _strptime_datetime\n    tt, fraction, gmtoff_fraction = _strptime(data_string, format)\n  File \"C:\\Users\\Lioba\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_strptime.py\", line 349, in _strptime\n    raise ValueError(\"time data %r does not match format %r\" %\nValueError: time data '12-04-2025' does not match format '%Y-%m-%d'\n\n----------------------------------------------------------------------\nRan 3 tests in 0.007s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-12T20:02:31.284002",
+      "results": {
+        "total": 3,
+        "failures": 1,
+        "errors": 1,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ERROR\n\n======================================================================\nERROR: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 92, in test_manual_3\n    if a.date < earliest:\nTypeError: '<' not supported between instances of 'str' and 'datetime.datetime'\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 66, in test_manual_2\n    self.assertTrue(valid_order)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.006s\n\nFAILED (failures=1, errors=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-12T20:04:09.222885",
+      "results": {
+        "total": 3,
+        "failures": 1,
+        "errors": 1,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ERROR\n\n======================================================================\nERROR: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 92, in test_manual_3\n    if datetime.strptime(a.date) < earliest:\nTypeError: strptime() takes exactly 2 arguments (1 given)\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 66, in test_manual_2\n    self.assertTrue(valid_order)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.006s\n\nFAILED (failures=1, errors=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-12T20:04:42.084716",
+      "results": {
+        "total": 3,
+        "failures": 2,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 66, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 98, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.007s\n\nFAILED (failures=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-12T20:05:14.680702",
+      "results": {
+        "total": 3,
+        "failures": 2,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 66, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 98, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.007s\n\nFAILED (failures=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-12T20:06:03.208625",
+      "results": {
+        "total": 3,
+        "failures": 3,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... FAIL\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 45, in test_manual_1\n    self.assertTrue(all_found and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 66, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: [] is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 98, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: [] is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.006s\n\nFAILED (failures=3)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T10:50:13.786424",
+      "results": {
+        "total": 3,
+        "failures": 2,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 66, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 98, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.008s\n\nFAILED (failures=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T10:59:52.310702",
+      "results": {
+        "total": 3,
+        "failures": 2,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 66, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 98, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.020s\n\nFAILED (failures=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:02:05.710999",
+      "results": {
+        "total": 3,
+        "failures": 2,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 66, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 98, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.015s\n\nFAILED (failures=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:02:16.806812",
+      "results": {
+        "total": 3,
+        "failures": 2,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 66, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 98, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.006s\n\nFAILED (failures=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:06:23.728910",
+      "results": {
+        "total": 3,
+        "failures": 2,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 66, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 98, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.003s\n\nFAILED (failures=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:07:32.162374",
+      "results": {
+        "total": 3,
+        "failures": 3,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... FAIL\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 44, in test_manual_1\n    self.assertTrue(all_found and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 65, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: [] is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 97, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: [] is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.004s\n\nFAILED (failures=3)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:09:27.273207",
+      "results": {
+        "total": 3,
+        "failures": 2,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 65, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 97, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.003s\n\nFAILED (failures=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:10:33.301480",
+      "results": {
+        "total": 3,
+        "failures": 2,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 65, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 97, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.004s\n\nFAILED (failures=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:10:56.354342",
+      "results": {
+        "total": 3,
+        "failures": 2,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 65, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 97, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.003s\n\nFAILED (failures=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:12:39.559734",
+      "results": {
+        "total": 3,
+        "failures": 2,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 65, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 97, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.004s\n\nFAILED (failures=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:13:05.879981",
+      "results": {
+        "total": 3,
+        "failures": 2,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 65, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 97, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.004s\n\nFAILED (failures=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:13:48.279205",
+      "results": {
+        "total": 3,
+        "failures": 1,
+        "errors": 1,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ERROR\n\n======================================================================\nERROR: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 94, in test_manual_3\n    if datetime.strrptime(c.date) != earliest:\nAttributeError: type object 'datetime.datetime' has no attribute 'strrptime'\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 65, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.003s\n\nFAILED (failures=1, errors=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:14:10.435812",
+      "results": {
+        "total": 3,
+        "failures": 1,
+        "errors": 1,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ERROR\n\n======================================================================\nERROR: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 94, in test_manual_3\n    if datetime.strrptime(c.date, '%Y-%m-%d') != earliest:\nAttributeError: type object 'datetime.datetime' has no attribute 'strrptime'\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 65, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.004s\n\nFAILED (failures=1, errors=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:14:24.563785",
+      "results": {
+        "total": 3,
+        "failures": 2,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 65, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 97, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.004s\n\nFAILED (failures=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:16:12.978201",
+      "results": {
+        "total": 3,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ok\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 65, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.004s\n\nFAILED (failures=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:21:44.218683",
+      "results": {
+        "total": 3,
+        "failures": 2,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... FAIL\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 65, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 97, in test_manual_3\n    self.assertTrue(unique_entries and earliest_planned and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.004s\n\nFAILED (failures=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:28:14.971844",
+      "results": {
+        "total": 3,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ok\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 65, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.004s\n\nFAILED (failures=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:37:16.663970",
+      "results": {
+        "total": 3,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ok\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 65, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.010s\n\nFAILED (failures=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:39:22.969919",
+      "results": {
+        "total": 3,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ok\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 65, in test_manual_2\n    self.assertTrue(valid_order and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 3 tests in 0.010s\n\nFAILED (failures=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:41:07.180282",
+      "results": {
+        "total": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... ok\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.010s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T12:36:18.302189",
+      "results": {
+        "total": 6,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0,
+        "success": false,
+        "details": "test_assisted_1 (test.ItineraryBuilderTest)\nFirst assisted test case ... ERROR\ntest_assisted_2 (test.ItineraryBuilderTest)\nSecond assisted test case ... ok\ntest_assisted_3 (test.ItineraryBuilderTest)\nThirds assisted test case ... ok\ntest_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... ok\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ok\n\n======================================================================\nERROR: test_assisted_1 (test.ItineraryBuilderTest)\nFirst assisted test case\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 132, in test_assisted_1\n    closest = min(distances, key=distances.get())\nTypeError: get expected at least 1 argument, got 0\n\n----------------------------------------------------------------------\nRan 6 tests in 0.017s\n\nFAILED (errors=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T12:39:39.990905",
+      "results": {
+        "total": 6,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_assisted_1 (test.ItineraryBuilderTest)\nFirst assisted test case ... FAIL\ntest_assisted_2 (test.ItineraryBuilderTest)\nSecond assisted test case ... ok\ntest_assisted_3 (test.ItineraryBuilderTest)\nThirds assisted test case ... ok\ntest_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... ok\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ok\n\n======================================================================\nFAIL: test_assisted_1 (test.ItineraryBuilderTest)\nFirst assisted test case\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 137, in test_assisted_1\n    self.assertTrue(valid_contents)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 6 tests in 0.017s\n\nFAILED (failures=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T12:51:28.480974",
+      "results": {
+        "total": 6,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_assisted_1 (test.ItineraryBuilderTest)\nFirst assisted test case ... ok\ntest_assisted_2 (test.ItineraryBuilderTest)\nSecond assisted test case ... ok\ntest_assisted_3 (test.ItineraryBuilderTest)\nThirds assisted test case ... ok\ntest_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... FAIL\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... ok\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ok\n\n======================================================================\nFAIL: test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 44, in test_manual_1\n    self.assertTrue(all_found and concerts)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 6 tests in 0.014s\n\nFAILED (failures=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T12:56:44.704211",
+      "results": {
+        "total": 6,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_assisted_1 (test.ItineraryBuilderTest)\nFirst assisted test case ... ok\ntest_assisted_2 (test.ItineraryBuilderTest)\nSecond assisted test case ... ok\ntest_assisted_3 (test.ItineraryBuilderTest)\nThirds assisted test case ... ok\ntest_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... ERROR\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ERROR\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 57, in test_manual_2\n    second = datetime.strptime(c.date, '%Y-%m-%d')\nTypeError: strptime() argument 1 must be str, not None\n\n======================================================================\nERROR: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 94, in test_manual_3\n    if datetime.strptime(c.date, '%Y-%m-%d') != earliest:\nTypeError: strptime() argument 1 must be str, not None\n\n----------------------------------------------------------------------\nRan 6 tests in 0.014s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T13:00:20.335947",
+      "results": {
+        "total": 6,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_assisted_1 (test.ItineraryBuilderTest)\nFirst assisted test case ... ok\ntest_assisted_2 (test.ItineraryBuilderTest)\nSecond assisted test case ... ok\ntest_assisted_3 (test.ItineraryBuilderTest)\nThirds assisted test case ... ok\ntest_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... ERROR\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ERROR\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 57, in test_manual_2\nTypeError: strptime() argument 1 must be str, not None\n\n======================================================================\nERROR: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 94, in test_manual_3\n    if c.date is None:\nTypeError: strptime() argument 1 must be str, not None\n\n----------------------------------------------------------------------\nRan 6 tests in 0.019s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T13:00:23.705062",
+      "results": {
+        "total": 6,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_assisted_1 (test.ItineraryBuilderTest)\nFirst assisted test case ... ok\ntest_assisted_2 (test.ItineraryBuilderTest)\nSecond assisted test case ... ok\ntest_assisted_3 (test.ItineraryBuilderTest)\nThirds assisted test case ... ok\ntest_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... ERROR\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ERROR\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 58, in test_manual_2\n    if second.date is None:\nUnboundLocalError: local variable 'second' referenced before assignment\n\n======================================================================\nERROR: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 101, in test_manual_3\n    if datetime.strptime(c.date, '%Y-%m-%d') != earliest:\nTypeError: strptime() argument 1 must be str, not None\n\n----------------------------------------------------------------------\nRan 6 tests in 0.014s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T13:01:13.512171",
+      "results": {
+        "total": 6,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0,
+        "success": false,
+        "details": "test_assisted_1 (test.ItineraryBuilderTest)\nFirst assisted test case ... ok\ntest_assisted_2 (test.ItineraryBuilderTest)\nSecond assisted test case ... ok\ntest_assisted_3 (test.ItineraryBuilderTest)\nThirds assisted test case ... ok\ntest_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... ok\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ERROR\n\n======================================================================\nERROR: test_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 101, in test_manual_3\n    if datetime.strptime(c.date, '%Y-%m-%d') != earliest:\nTypeError: strptime() argument 1 must be str, not None\n\n----------------------------------------------------------------------\nRan 6 tests in 0.013s\n\nFAILED (errors=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T13:02:05.089884",
+      "results": {
+        "total": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_assisted_1 (test.ItineraryBuilderTest)\nFirst assisted test case ... ok\ntest_assisted_2 (test.ItineraryBuilderTest)\nSecond assisted test case ... ok\ntest_assisted_3 (test.ItineraryBuilderTest)\nThirds assisted test case ... ok\ntest_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... ok\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.013s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T13:08:57.708421",
+      "results": {
+        "total": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_assisted_1 (test.ItineraryBuilderTest)\nFirst assisted test case ... ok\ntest_assisted_2 (test.ItineraryBuilderTest)\nSecond assisted test case ... ok\ntest_assisted_3 (test.ItineraryBuilderTest)\nThirds assisted test case ... ok\ntest_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... ok\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.014s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T13:14:10.488150",
+      "results": {
+        "total": 6,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_assisted_1 (test.ItineraryBuilderTest)\nFirst assisted test case ... ok\ntest_assisted_2 (test.ItineraryBuilderTest)\nSecond assisted test case ... FAIL\ntest_assisted_3 (test.ItineraryBuilderTest)\nThirds assisted test case ... ok\ntest_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... ok\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ok\n\n======================================================================\nFAIL: test_assisted_2 (test.ItineraryBuilderTest)\nSecond assisted test case\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Lioba\\Documents\\GitHub\\TDD-Prompt-Engineering\\test.py\", line 170, in test_assisted_2\n    self.assertTrue(valid_contents)\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 6 tests in 0.014s\n\nFAILED (failures=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T13:18:24.344773",
+      "results": {
+        "total": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_assisted_1 (test.ItineraryBuilderTest)\nFirst assisted test case ... ok\ntest_assisted_2 (test.ItineraryBuilderTest)\nSecond assisted test case ... ok\ntest_assisted_3 (test.ItineraryBuilderTest)\nThirds assisted test case ... ok\ntest_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest)\nSecond manually written test case. ... ok\ntest_manual_3 (test.ItineraryBuilderTest)\nThird manually written test case. ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.014s\n\nOK\n"
+      }
+    }
+  ],
+  "file_changes": [],
+  "coverage_reports": [
+    {
+      "timestamp": "2025-04-12T19:54:03.794704",
+      "total_coverage": 1.7241379310344827,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 54,
+          "lines_covered": 54,
+          "lines_missed": 5,
+          "percentage": 100.0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-12T19:57:38.197248",
+      "total_coverage": 1.7241379310344827,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 54,
+          "lines_covered": 54,
+          "lines_missed": 5,
+          "percentage": 100.0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-12T19:59:54.473480",
+      "total_coverage": 1.7241379310344827,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 54,
+          "lines_covered": 54,
+          "lines_missed": 5,
+          "percentage": 100.0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-12T20:01:39.213027",
+      "total_coverage": 1.639344262295082,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 57,
+          "lines_missed": 5,
+          "percentage": 100.0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-12T20:01:49.425128",
+      "total_coverage": 44.0,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 14,
+          "lines_covered": 13,
+          "lines_missed": 11,
+          "percentage": 92.85714285714286
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 26,
+          "lines_missed": 31,
+          "percentage": 45.6140350877193
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-12T20:02:31.360017",
+      "total_coverage": 57.333333333333336,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 16,
+          "lines_missed": 28,
+          "percentage": 28.07017543859649
+        },
+        "main.py": {
+          "lines_total": 14,
+          "lines_covered": 13,
+          "lines_missed": 11,
+          "percentage": 92.85714285714286
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-12T20:04:09.299890",
+      "total_coverage": 57.333333333333336,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 16,
+          "lines_missed": 28,
+          "percentage": 28.07017543859649
+        },
+        "main.py": {
+          "lines_total": 14,
+          "lines_covered": 13,
+          "lines_missed": 11,
+          "percentage": 92.85714285714286
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-12T20:04:42.163744",
+      "total_coverage": 61.333333333333336,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 13,
+          "lines_missed": 33,
+          "percentage": 22.80701754385965
+        },
+        "main.py": {
+          "lines_total": 14,
+          "lines_covered": 13,
+          "lines_missed": 11,
+          "percentage": 92.85714285714286
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-12T20:05:14.759722",
+      "total_coverage": 61.333333333333336,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 13,
+          "lines_missed": 33,
+          "percentage": 22.80701754385965
+        },
+        "main.py": {
+          "lines_total": 14,
+          "lines_covered": 13,
+          "lines_missed": 11,
+          "percentage": 92.85714285714286
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-12T20:06:03.289643",
+      "total_coverage": 37.333333333333336,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 14,
+          "lines_covered": 13,
+          "lines_missed": 11,
+          "percentage": 92.85714285714286
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 31,
+          "lines_missed": 53,
+          "percentage": 54.3859649122807
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T10:50:13.886155",
+      "total_coverage": 59.74025974025974,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 16,
+          "lines_covered": 15,
+          "lines_missed": 11,
+          "percentage": 93.75
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 13,
+          "lines_missed": 33,
+          "percentage": 22.80701754385965
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T10:59:52.437967",
+      "total_coverage": 59.770114942528735,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 26,
+          "lines_covered": 17,
+          "lines_missed": 11,
+          "percentage": 65.38461538461539
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 15,
+          "lines_missed": 40,
+          "percentage": 26.31578947368421
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:02:05.740014",
+      "total_coverage": 59.770114942528735,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 26,
+          "lines_covered": 17,
+          "lines_missed": 11,
+          "percentage": 65.38461538461539
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 15,
+          "lines_missed": 40,
+          "percentage": 26.31578947368421
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:02:16.887843",
+      "total_coverage": 59.770114942528735,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 26,
+          "lines_covered": 17,
+          "lines_missed": 11,
+          "percentage": 65.38461538461539
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 15,
+          "lines_missed": 40,
+          "percentage": 26.31578947368421
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:06:23.775529",
+      "total_coverage": 59.770114942528735,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 26,
+          "lines_covered": 17,
+          "lines_missed": 11,
+          "percentage": 65.38461538461539
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 15,
+          "lines_missed": 40,
+          "percentage": 26.31578947368421
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:07:32.209632",
+      "total_coverage": 41.37931034482759,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 31,
+          "lines_missed": 53,
+          "percentage": 54.3859649122807
+        },
+        "main.py": {
+          "lines_total": 26,
+          "lines_covered": 17,
+          "lines_missed": 11,
+          "percentage": 65.38461538461539
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:09:27.319776",
+      "total_coverage": 59.770114942528735,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 15,
+          "lines_missed": 40,
+          "percentage": 26.31578947368421
+        },
+        "main.py": {
+          "lines_total": 26,
+          "lines_covered": 17,
+          "lines_missed": 11,
+          "percentage": 65.38461538461539
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:10:33.347490",
+      "total_coverage": 59.770114942528735,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 26,
+          "lines_covered": 17,
+          "lines_missed": 11,
+          "percentage": 65.38461538461539
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 15,
+          "lines_missed": 40,
+          "percentage": 26.31578947368421
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:10:56.400350",
+      "total_coverage": 59.770114942528735,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 26,
+          "lines_covered": 17,
+          "lines_missed": 11,
+          "percentage": 65.38461538461539
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 15,
+          "lines_missed": 40,
+          "percentage": 26.31578947368421
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:12:39.605887",
+      "total_coverage": 60.91954022988506,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 14,
+          "lines_missed": 36,
+          "percentage": 24.56140350877193
+        },
+        "main.py": {
+          "lines_total": 26,
+          "lines_covered": 17,
+          "lines_missed": 11,
+          "percentage": 65.38461538461539
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:13:05.928760",
+      "total_coverage": 60.91954022988506,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 26,
+          "lines_covered": 17,
+          "lines_missed": 11,
+          "percentage": 65.38461538461539
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 14,
+          "lines_missed": 36,
+          "percentage": 24.56140350877193
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:13:48.325216",
+      "total_coverage": 58.62068965517241,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 26,
+          "lines_covered": 17,
+          "lines_missed": 11,
+          "percentage": 65.38461538461539
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 16,
+          "lines_missed": 35,
+          "percentage": 28.07017543859649
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:14:10.481799",
+      "total_coverage": 58.62068965517241,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 26,
+          "lines_covered": 17,
+          "lines_missed": 11,
+          "percentage": 65.38461538461539
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 16,
+          "lines_missed": 35,
+          "percentage": 28.07017543859649
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:14:24.611796",
+      "total_coverage": 60.91954022988506,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 26,
+          "lines_covered": 17,
+          "lines_missed": 11,
+          "percentage": 65.38461538461539
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 14,
+          "lines_missed": 36,
+          "percentage": 24.56140350877193
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:16:13.025211",
+      "total_coverage": 60.91954022988506,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 14,
+          "lines_missed": 36,
+          "percentage": 24.56140350877193
+        },
+        "main.py": {
+          "lines_total": 26,
+          "lines_covered": 17,
+          "lines_missed": 11,
+          "percentage": 65.38461538461539
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:21:44.266883",
+      "total_coverage": 61.111111111111114,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 29,
+          "lines_covered": 18,
+          "lines_missed": 11,
+          "percentage": 62.06896551724138
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 14,
+          "lines_missed": 36,
+          "percentage": 24.56140350877193
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:28:15.019178",
+      "total_coverage": 60.869565217391305,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 31,
+          "lines_covered": 18,
+          "lines_missed": 11,
+          "percentage": 58.064516129032256
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 15,
+          "lines_missed": 40,
+          "percentage": 26.31578947368421
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:37:16.729643",
+      "total_coverage": 63.63636363636363,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 15,
+          "lines_missed": 40,
+          "percentage": 26.31578947368421
+        },
+        "main.py": {
+          "lines_total": 38,
+          "lines_covered": 18,
+          "lines_missed": 11,
+          "percentage": 47.36842105263158
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:39:23.033933",
+      "total_coverage": 63.63636363636363,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 38,
+          "lines_covered": 18,
+          "lines_missed": 11,
+          "percentage": 47.36842105263158
+        },
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 15,
+          "lines_missed": 40,
+          "percentage": 26.31578947368421
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T11:41:07.245297",
+      "total_coverage": 61.61616161616162,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 57,
+          "lines_covered": 17,
+          "lines_missed": 47,
+          "percentage": 29.82456140350877
+        },
+        "main.py": {
+          "lines_total": 38,
+          "lines_covered": 18,
+          "lines_missed": 11,
+          "percentage": 47.36842105263158
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T12:36:18.411396",
+      "total_coverage": 67.0807453416149,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 47,
+          "lines_covered": 19,
+          "lines_missed": 15,
+          "percentage": 40.42553191489362
+        },
+        "test.py": {
+          "lines_total": 110,
+          "lines_covered": 31,
+          "lines_missed": 101,
+          "percentage": 28.181818181818183
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T12:39:40.074724",
+      "total_coverage": 68.94409937888199,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 110,
+          "lines_covered": 28,
+          "lines_missed": 97,
+          "percentage": 25.454545454545453
+        },
+        "main.py": {
+          "lines_total": 47,
+          "lines_covered": 19,
+          "lines_missed": 15,
+          "percentage": 40.42553191489362
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T12:51:28.555852",
+      "total_coverage": 68.71165644171779,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 110,
+          "lines_covered": 28,
+          "lines_missed": 98,
+          "percentage": 25.454545454545453
+        },
+        "main.py": {
+          "lines_total": 49,
+          "lines_covered": 20,
+          "lines_missed": 15,
+          "percentage": 40.816326530612244
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T12:56:44.776658",
+      "total_coverage": 71.42857142857143,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 110,
+          "lines_covered": 30,
+          "lines_missed": 99,
+          "percentage": 27.272727272727273
+        },
+        "main.py": {
+          "lines_total": 54,
+          "lines_covered": 15,
+          "lines_missed": 23,
+          "percentage": 27.77777777777778
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T13:00:20.378957",
+      "total_coverage": 56.97674418604651,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 114,
+          "lines_covered": 56,
+          "lines_missed": 141,
+          "percentage": 49.12280701754386
+        },
+        "main.py": {
+          "lines_total": 54,
+          "lines_covered": 15,
+          "lines_missed": 23,
+          "percentage": 27.77777777777778
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T13:00:23.777078",
+      "total_coverage": 69.18604651162791,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 114,
+          "lines_covered": 35,
+          "lines_missed": 98,
+          "percentage": 30.70175438596491
+        },
+        "main.py": {
+          "lines_total": 54,
+          "lines_covered": 15,
+          "lines_missed": 23,
+          "percentage": 27.77777777777778
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T13:01:13.583016",
+      "total_coverage": 72.09302325581395,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 54,
+          "lines_covered": 15,
+          "lines_missed": 23,
+          "percentage": 27.77777777777778
+        },
+        "test.py": {
+          "lines_total": 114,
+          "lines_covered": 30,
+          "lines_missed": 102,
+          "percentage": 26.31578947368421
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T13:02:05.159901",
+      "total_coverage": 72.67441860465117,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 54,
+          "lines_covered": 15,
+          "lines_missed": 23,
+          "percentage": 27.77777777777778
+        },
+        "test.py": {
+          "lines_total": 114,
+          "lines_covered": 29,
+          "lines_missed": 103,
+          "percentage": 25.43859649122807
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T13:08:57.783438",
+      "total_coverage": 71.83908045977012,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 56,
+          "lines_covered": 17,
+          "lines_missed": 23,
+          "percentage": 30.357142857142858
+        },
+        "test.py": {
+          "lines_total": 114,
+          "lines_covered": 29,
+          "lines_missed": 103,
+          "percentage": 25.43859649122807
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T13:14:10.561499",
+      "total_coverage": 72.41379310344827,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 114,
+          "lines_covered": 28,
+          "lines_missed": 98,
+          "percentage": 24.56140350877193
+        },
+        "main.py": {
+          "lines_total": 56,
+          "lines_covered": 17,
+          "lines_missed": 23,
+          "percentage": 30.357142857142858
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T13:18:24.414789",
+      "total_coverage": 71.75141242937853,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 117,
+          "lines_covered": 30,
+          "lines_missed": 107,
+          "percentage": 25.641025641025642
+        },
+        "main.py": {
+          "lines_total": 56,
+          "lines_covered": 17,
+          "lines_missed": 23,
+          "percentage": 30.357142857142858
+        }
+      }
+    }
+  ],
+  "task_times": [
+    {
+      "timestamp": "2025-04-12T19:53:57.020643",
+      "task": "Manual test writing (RED phase)",
+      "duration": 65.0
+    },
+    {
+      "timestamp": "2025-04-13T11:41:29.572424",
+      "task": "Manual implementation (GREEN phase)",
+      "duration": 49.0
+    },
+    {
+      "timestamp": "2025-04-13T11:44:08.342390",
+      "task": "Manual refactoring (REFACTOR phase)",
+      "duration": 2.0
+    },
+    {
+      "timestamp": "2025-04-13T12:41:32.502860",
+      "task": "AI-assisted test writing (RED phase)",
+      "duration": 50.0
+    },
+    {
+      "timestamp": "2025-04-13T13:02:20.199518",
+      "task": "AI-assisted implementation (GREEN phase)",
+      "duration": 20.0
+    },
+    {
+      "timestamp": "2025-04-13T13:10:10.704442",
+      "task": "AI-assisted refactoring (REFACTOR phase)",
+      "duration": 11.0
+    }
+  ],
+  "constraint_assignments": {
+    "manual": [
+      3,
+      1,
+      2
+    ],
+    "ai_assisted": [
+      4,
+      0,
+      5
+    ],
+    "assigned_at": "2025-04-12T17:41:03"
+  }
+}
